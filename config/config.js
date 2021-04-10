@@ -15,7 +15,7 @@ CONFIG.db_password  = process.env.DB_PASSWORD   || '';
 CONFIG.jwt_encryption  = process.env.JWT_ENCRYPTION || 'jwt_please_change';
 CONFIG.jwt_expiration  = process.env.JWT_EXPIRATION || '10000';
 
-CONFIG.MONGOSTRING = `mongodb+srv://chakridb:chakridb@cluster0.rpvj4.mongodb.net/db?retryWrites=true&w=majority`
+CONFIG.MONGOSTRING = `mongodb+srv://something:something@cluster0.rpvj4.mongodb.net/db?retryWrites=true&w=majority`
 
 module.exports = CONFIG;
 
